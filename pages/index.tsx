@@ -78,7 +78,7 @@ export default function Home({
             Uptimeflare
           </a>{' '}
           and{' '}
-          <a href="https://www.cloudflare.com/" target="_blank">
+          <a href="https://dash.cloudflare.com/" target="_blank">
             Cloudflare
           </a>
           , made with ❤ by{' '}
