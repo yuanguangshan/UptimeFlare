@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/yuanguangshan', label: 'GitHub' },
-    { link: 'https://wiki.want.biz', label: 'wiki' },
+    { link: 'https://wiki.yuangs.cc', label: 'wiki' },
     { link: 'https://www.want.biz', label: 'Nas', highlight: true },
   ],
 }
@@ -17,17 +17,17 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'foo_monitor',
+      id: 'github_monitor',
       // `name` is used at status page and callback message
-      name: 'My API Monitor',
+      name: 'Github monitor',
       // `method` should be a valid HTTP Method
-      method: 'POST',
+      method: 'GET',
       // `target` is a valid URL
-      target: 'https://example.com',
+      target: 'https://github.com/yuanguangshan/UptimeFlare',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://github.com/yuanguangshan/UptimeFlare',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -47,14 +47,14 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
+      id: 'NAS_monitor',
+      name: 'Synology Monitor',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
+      method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
+      target: 'https://www.want.biz',
+      tooltip: 'yuan's Synology!',
+      statusPageLink: 'https://www.want.biz',
       timeout: 5000,
     },
   ],
