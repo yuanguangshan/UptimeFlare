@@ -83,7 +83,7 @@ export default function Home({
           </a>
           , made with ❤ by{' '}
           <a href="https://github.com/yuanguangshan" target="_blank">
-            lyc8503
+            YGS
           </a>
           .
         </Text>
