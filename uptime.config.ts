@@ -53,7 +53,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://www.want.biz',
-      tooltip: 'yuan's Synology!',
+      tooltip: 'YGS Synology!',
       statusPageLink: 'https://www.want.biz',
       timeout: 5000,
     },
