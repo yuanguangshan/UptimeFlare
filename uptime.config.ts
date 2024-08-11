@@ -25,7 +25,7 @@ const workerConfig = {
       tooltip: 'YGS Wiki!',
       statusPageLink: 'https://wiki.yuangs.cc/index.php?title=%E9%A6%96%E9%A1%B5',
       timeout: 5000,
-    },,
+    },
     // Example TCP Monitor
     {
       id: 'NAS_monitor',
