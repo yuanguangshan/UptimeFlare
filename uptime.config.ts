@@ -17,7 +17,7 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       id: 'Wiki_monitor',
-      name: 'YGS Wiki Monitor',
+      name: 'YGS Wiki',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -29,7 +29,7 @@ const workerConfig = {
     // Example TCP Monitor
     {
       id: 'NAS_monitor',
-      name: 'Synology Monitor',
+      name: 'Synology NAS',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -41,7 +41,7 @@ const workerConfig = {
         // Example TCP Monitor
     {
       id: 'Pushdeer_monitor',
-      name: 'Pushdeer Monitor',
+      name: 'Pushdeer Service',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -52,7 +52,7 @@ const workerConfig = {
     },    // Example TCP Monitor
     {
       id: 'Jupyter_Notebook_monitor',
-      name: 'Jupyter Notebook Monitor',
+      name: 'JupyterLab service',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -74,7 +74,7 @@ const workerConfig = {
     // [Optional] grace period in minutes before sending a notification
     // notification will be sent only if the monitor is down for N continuous checks after the initial failure
     // if not specified, notification will be sent immediately
-    gracePeriod: 5,
+    gracePeriod: 1,
   },
   callbacks: {
     onStatusChange: async (
