@@ -15,6 +15,17 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     // Example HTTP Monitor
+{
+      id: 'blog_monitor',
+      name: 'My blog @yuangs',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://blog.want.biz',
+      tooltip: 'yuangs blog!',
+      statusPageLink: 'https://blog.want.biz',
+      timeout: 5000,
+    },
     {
       id: 'Wiki_monitor',
       name: 'YGS Wiki',
@@ -61,17 +72,7 @@ const workerConfig = {
       statusPageLink: 'https://notebook.want.biz/lab?',
       timeout: 5000,
     },
-{
-      id: 'blog_monitor',
-      name: 'My blog @yuangs',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://blog.want.biz',
-      tooltip: 'yuangs blog!',
-      statusPageLink: 'https://blog.want.biz',
-      timeout: 5000,
-    },
+
   ],
   notification: {
     // [Optional] apprise API server URL
