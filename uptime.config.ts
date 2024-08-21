@@ -15,7 +15,18 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     // Example HTTP Monitor
-{
+    {
+      id: 'vueblog_monitor',
+      name: 'Vue blog @yuangs',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://v.want.biz',
+      tooltip: 'yuangs blog by vue on cloudflare!',
+      statusPageLink: 'https://v.want.biz',
+      timeout: 5000,
+    },
+    {
       id: 'blog_monitor',
       name: 'My blog @yuangs',
       // `method` should be `TCP_PING` for tcp monitors
