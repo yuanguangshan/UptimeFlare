@@ -78,9 +78,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://notebook.want.biz/lab?',
+      target: 'https://notebook.yuangs.cc/lab?',
       tooltip: 'YGS Jupyter Notebook!',
-      statusPageLink: 'https://notebook.want.biz/lab?',
+      statusPageLink: 'https://notebook.yuangs.cc/lab?',
       timeout: 5000,
     },
 
