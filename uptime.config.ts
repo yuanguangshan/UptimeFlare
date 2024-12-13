@@ -32,9 +32,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://blog.want.biz',
+      target: 'https://wealth.want.biz',
       tooltip: 'yuangs blog!',
-      statusPageLink: 'https://blog.want.biz',
+      statusPageLink: 'https://wealth.want.biz',
       timeout: 5000,
     },
     {
