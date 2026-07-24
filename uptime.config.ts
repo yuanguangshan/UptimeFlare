@@ -38,14 +38,14 @@ const workerConfig = {
       timeout: 5000,
     },
     {
-      id: 'Wiki_monitor',
-      name: 'YGS Wiki',
+      id: 'Blog_monitor',
+      name: 'YGS Blog',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://wiki.yuangs.cc/index.php?title=%E9%A6%96%E9%A1%B5',
-      tooltip: 'YGS Wiki!',
-      statusPageLink: 'https://wiki.yuangs.cc/index.php?title=%E9%A6%96%E9%A1%B5',
+      target: 'https://blog.want.biz',
+      tooltip: 'YGS Blog!',
+      statusPageLink: 'https://blog.want.biz',
       timeout: 5000,
     },
     // Example TCP Monitor
