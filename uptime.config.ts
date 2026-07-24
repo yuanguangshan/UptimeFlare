@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/yuanguangshan', label: 'GitHub' },
-    { link: 'https://wiki.yuangs.cc', label: 'wiki' },
+    { link: 'https://blog.yuangs.cc', label: 'Blog' },
     { link: 'https://www.want.biz', label: 'Nas', highlight: true },
   ],
 }
