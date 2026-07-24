@@ -38,14 +38,14 @@ const workerConfig = {
       timeout: 5000,
     },
     {
-      id: 'Blog_monitor',
-      name: 'YGS Blog',
+      id: 'Poe_monitor',
+      name: 'POE chat',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://blog.want.biz',
-      tooltip: 'YGS Blog!',
-      statusPageLink: 'https://blog.want.biz',
+      target: 'https://poe.want.biz',
+      tooltip: 'YGS poe!',
+      statusPageLink: 'https://poe.want.biz',
       timeout: 5000,
     },
     // Example TCP Monitor
